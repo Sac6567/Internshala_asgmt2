@@ -1,0 +1,25 @@
+div {
+  padding-left: 12%;
+  padding-right: 12%;
+  background-color: aqua;
+}
+.foot {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
+.bg_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
+}
+#main {
+  height: 50vh;
+  position: relative;
+}
+.btn {
+  position: absolute;
+  bottom: 0;
+}
