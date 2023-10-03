@@ -1,14 +1,10 @@
+/*Main page layout*/
 div {
   padding-left: 12%;
   padding-right: 12%;
-  background-color: aqua;
 }
-.foot {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
-}
+
+/*Bg img styling*/
 .bg_img {
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,7 +15,17 @@ div {
   height: 50vh;
   position: relative;
 }
-.btn {
+
+/*Button styling*/
+button[type="button"] {
   position: absolute;
   bottom: 0;
+}
+
+/*Footer styling*/
+.foot {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
 }

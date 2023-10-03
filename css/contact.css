@@ -1,0 +1,32 @@
+div {
+  background-color: aqua;
+}
+
+/*Input textarea styling*/
+input,
+textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 6px 5% 6px 5%;
+}
+
+/*Submit Button styling*/
+button[type="submit"] {
+  background-color: lightgrey;
+  color: black;
+  padding: 12px 100px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 6px 0px 6px 25%;
+}
+
+button[type="submit"]:hover {
+  background-color: lightblue;
+}
+
+.child {
+  width: 90%;
+  margin-left: 10px;
+}
