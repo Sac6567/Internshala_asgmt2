@@ -1,5 +1,9 @@
-div {
+.container {
   background-color: aqua;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 10%;
+  border-radius: 20px;
 }
 
 /*Input textarea styling*/
@@ -9,7 +13,7 @@ textarea {
   padding: 12px;
   border: 1px solid;
   border-radius: 4px;
-  margin: 6px 5% 6px 5%;
+  margin: 15px 5% 10px 5%;
 }
 
 /*Submit Button styling*/

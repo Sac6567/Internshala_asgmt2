@@ -1,0 +1,39 @@
+/*Main page layout*/
+div {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+/*Bg img styling*/
+.bg_img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#main {
+  height: 50vh;
+}
+
+/*Button styling*/
+
+button[type="button"] {
+  margin-top: 400px;
+  margin-left: 5%;
+  margin-right: 9%;
+  height: 82px;
+  background-color: DarkSalmon;
+  font-size: 30px;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px 20px 0px 0px;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 90%;
+}
+
+#logo {
+  position: absolute;
+  margin-left: 25%;
+}
